@@ -1,6 +1,6 @@
 # React bank app landing page
 
-Example of this ptoject [Bank React](https://github.com/facebook/create-react-app).
+Live demo [Bank React](http://bankreact.codigohabil.com/).
 
 ## Available Scripts
 
