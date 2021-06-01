@@ -15,21 +15,47 @@ export const KanbasWrap = styled.div`
 `
 
 export const Column = styled.div`
-    max-width: 480px;
+    max-width: 500px;
     width: 30%;
 
 `
 
 export const ColumnTitle = styled.h3`
-    color: black;
+    color: #3f3f3f;
+    margin-bottom: 8px;
+    font-size: 16px;
 `;
 
 export const DroppableColumn = styled.div`
     width: 100%;
-    background-color: gray;
+    background-color: #ebecf0;
     padding: 10px;
 `
 
 export const Card = styled.div`
-    padding: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(9 30 66 / 25%);
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px 0;
+
 `;
+
+export const InputWrapp = styled.div`
+
+`;
+
+export const Button = styled.button`
+
+`;
+
+
+export const Container = styled.div`
+    @media screen and (min-width: 760px){
+        margin: 0 auto;
+        max-width: 980px;
+    }
+
+`
