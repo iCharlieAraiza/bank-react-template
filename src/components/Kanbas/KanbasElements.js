@@ -1,5 +1,11 @@
 import styled from 'styled-components'
 
+export const Page = styled.div`
+    background-image: url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/588f9aa8d2db7225c970737536fae3bd/photo-1511271211242-7e9641121fd6.jpg");
+    background-size: cover;
+    min-height: 100vh;
+`
+
 export const KanbasWrap = styled.div`
     display: flex;
     width: 100%;
@@ -17,19 +23,21 @@ export const KanbasWrap = styled.div`
 export const Column = styled.div`
     max-width: 500px;
     width: 30%;
+    
 
 `
 
 export const ColumnTitle = styled.h3`
+    background-color: #ebecf0;  
     color: #3f3f3f;
-    margin-bottom: 8px;
-    font-size: 16px;
+    font-size: 14px;
+    padding: 10px 10px 0 10px;
 `;
 
 export const DroppableColumn = styled.div`
-    width: 100%;
-    background-color: #ebecf0;
+    background-color: #ebecf0;  
     padding: 10px;
+    width: 100%;
 `
 
 export const Card = styled.div`
@@ -39,7 +47,7 @@ export const Card = styled.div`
     cursor: pointer;
     font-size: 14px;
     padding: 10px;
-    margin: 10px 0;
+    margin-bottom: 10px;
 
 `;
 
