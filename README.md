@@ -3,7 +3,7 @@
 Live demo here: [Bank React](http://bankreact.codigohabil.com/).
 
 ## Installation
-To install you have to download this repository and then run the command: `npm start` or `yarn start`
+To install you have to download this repository and then run one of the following commands: `npm start` or `yarn start`
 
 ## Available Scripts
 
